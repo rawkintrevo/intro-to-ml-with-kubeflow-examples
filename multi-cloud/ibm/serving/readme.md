@@ -92,7 +92,9 @@ ks apply default
 
 ```bash
 mkdir ibm-serving
-wget
+wget https://raw.githubusercontent.com/intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples/master/multi-cloud/ibm/serving/contract.json
+wget https://raw.githubusercontent.com/intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples/master/multi-cloud/ibm/serving/requirements.txt
+wget https://raw.githubusercontent.com/intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples/master/multi-cloud/ibm/serving/SkMnist.py
 ```
 #### Install s2i
 
